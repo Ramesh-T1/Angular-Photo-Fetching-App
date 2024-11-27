@@ -1,0 +1,6 @@
+<div class="button" (click)="onClick()">
+  <button>Request For New Photo</button>
+</div>
+<div *ngIf="photoUrl">
+  <img [src]="photoUrl" alt="No Photo Fetched,Please Check Endpoints" />
+</div>
